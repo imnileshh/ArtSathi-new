@@ -1,11 +1,11 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:uber_app/vendor/views/screens/edit_product_screen.dart';
-import 'package:uber_app/vendor/views/screens/upload_screen.dart';
-import 'package:uber_app/vendor/views/screens/vendor_innner_screen/chat_screen.dart';
-import 'package:uber_app/vendor/views/screens/vendor_logout_Screen.dart';
-import 'package:uber_app/vendor/views/screens/vendor_order_screen.dart';
+import 'package:artsathi_app/vendor/views/screens/edit_product_screen.dart';
+import 'package:artsathi_app/vendor/views/screens/upload_screen.dart';
+import 'package:artsathi_app/vendor/views/screens/vendor_innner_screen/chat_screen.dart';
+import 'package:artsathi_app/vendor/views/screens/vendor_logout_Screen.dart';
+import 'package:artsathi_app/vendor/views/screens/vendor_order_screen.dart';
 
 import '../../vendor_chat_screen.dart';
 import 'earnings_screen.dart';

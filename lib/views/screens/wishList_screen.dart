@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:uber_app/provider/favourite_provider.dart';
+import 'package:artsathi_app/provider/favourite_provider.dart';
 
 import '../../provider/cart_provider.dart';
 import 'inner_screens/checkout_screen.dart';

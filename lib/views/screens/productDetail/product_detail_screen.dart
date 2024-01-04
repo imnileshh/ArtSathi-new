@@ -5,8 +5,8 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:rating_summary/rating_summary.dart';
-import 'package:uber_app/views/screens/productDetail/vendor_store_detail_screen.dart';
-import 'package:uber_app/views/screens/widgets/inner_chat_screen.dart';
+import 'package:artsathi_app/views/screens/productDetail/vendor_store_detail_screen.dart';
+import 'package:artsathi_app/views/screens/widgets/inner_chat_screen.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 import 'package:flutter/cupertino.dart';

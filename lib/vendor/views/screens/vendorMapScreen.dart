@@ -4,8 +4,8 @@ import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
-import 'package:uber_app/helpers/helper_methods.dart';
-import 'package:uber_app/views/screens/main_Screen.dart';
+import 'package:artsathi_app/helpers/helper_methods.dart';
+import 'package:artsathi_app/views/screens/main_Screen.dart';
 
 import 'main_vendor_screen.dart';
 

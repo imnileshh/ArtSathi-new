@@ -1,6 +1,6 @@
 import 'package:geolocator/geolocator.dart';
 import 'package:provider/provider.dart';
-import 'package:uber_app/helpers/request_helper.dart';
+import 'package:artsathi_app/helpers/request_helper.dart';
 
 import '../cont/global_varaible.dart';
 import '../models/address_models.dart';

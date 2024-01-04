@@ -5,6 +5,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'package:image_picker/image_picker.dart';
+import 'package:artsathi_app/cont/colors.dart';
 
 import '../../controllers/vendor_register_controller.dart';
 
@@ -92,8 +93,8 @@ class _VendorRegistrationScreenState extends State<VendorRegistrationScreen> {
                   decoration: BoxDecoration(
                     gradient: LinearGradient(
                       colors: [
-                        Colors.yellow.shade900,
-                        Colors.yellow,
+                        AppColors.primaryPink,
+                        AppColors.primaryBlue,
                       ],
                     ),
                   ),
@@ -264,7 +265,12 @@ class _VendorRegistrationScreenState extends State<VendorRegistrationScreen> {
                         height: 30,
                         width: MediaQuery.of(context).size.width - 40,
                         decoration: BoxDecoration(
-                          color: Colors.yellow.shade900,
+                          gradient: LinearGradient(
+                            colors: [
+                              AppColors.primaryPink,
+                              AppColors.primaryBlue,
+                            ],
+                          ),
                           borderRadius: BorderRadius.circular(
                             10,
                           ),

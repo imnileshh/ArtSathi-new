@@ -1,6 +1,6 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:uber_app/vendor/views/auth/vendor_auth.dart';
+import 'package:artsathi_app/vendor/views/auth/vendor_auth.dart';
 
 class VendorLogoutScreen extends StatelessWidget {
   final FirebaseAuth _auth = FirebaseAuth.instance;

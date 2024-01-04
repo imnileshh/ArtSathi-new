@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'package:provider/provider.dart';
-import 'package:uber_app/provider/app_data.dart';
+import 'package:artsathi_app/provider/app_data.dart';
 
 class CustomAppBar extends StatefulWidget {
   const CustomAppBar({super.key});

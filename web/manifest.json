@@ -1,6 +1,6 @@
 {
-    "name": "uber_app",
-    "short_name": "uber_app",
+    "name": "artsathi_app",
+    "short_name": "artsathi_app",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

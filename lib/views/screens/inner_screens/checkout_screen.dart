@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
 
 import 'package:provider/provider.dart';
-import 'package:uber_app/views/screens/main_Screen.dart';
+import 'package:artsathi_app/views/screens/main_Screen.dart';
 import 'package:uuid/uuid.dart';
 
 import '../../../provider/cart_provider.dart';

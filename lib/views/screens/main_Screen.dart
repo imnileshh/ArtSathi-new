@@ -1,9 +1,9 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:uber_app/views/screens/account_screen.dart';
-import 'package:uber_app/views/screens/search_screen.dart';
-import 'package:uber_app/views/screens/wishList_screen.dart';
+import 'package:artsathi_app/views/screens/account_screen.dart';
+import 'package:artsathi_app/views/screens/search_screen.dart';
+import 'package:artsathi_app/views/screens/wishList_screen.dart';
 
 import 'cart_screen.dart';
 import 'category_screen.dart';

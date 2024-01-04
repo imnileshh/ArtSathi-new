@@ -1,6 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
-import 'package:uber_app/views/screens/widgets/home_products.dart';
+import 'package:artsathi_app/views/screens/widgets/home_products.dart';
 
 import 'new_products_widget.dart';
 
@@ -43,7 +43,7 @@ class _CategoryTextState extends State<CategoryText> {
               }
 
               return Container(
-                height: 40,
+                height: 45,
                 child: Row(
                   children: [
                     Expanded(
@@ -53,9 +53,9 @@ class _CategoryTextState extends State<CategoryText> {
                         itemBuilder: (context, index) {
                           final categoryData = snapshot.data!.docs[index];
                           return Padding(
-                            padding: const EdgeInsets.all(8.0),
+                            padding: const EdgeInsets.all(6.0),
                             child: ActionChip(
-                                backgroundColor: Colors.pink.shade900,
+                                backgroundColor: Color(0xFFBBE5D8),
                                 onPressed: () {
                                   setState(() {
                                     _selectedCategory =
@@ -68,8 +68,8 @@ class _CategoryTextState extends State<CategoryText> {
                                   child: Text(
                                     categoryData['categoryName'],
                                     style: TextStyle(
-                                      color: Colors.white,
-                                      fontSize: 12,
+                                      color: Colors.black,
+                                      fontSize: 14,
                                       fontWeight: FontWeight.bold,
                                     ),
                                   ),

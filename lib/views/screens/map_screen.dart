@@ -8,8 +8,8 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:provider/provider.dart';
-import 'package:uber_app/helpers/helper_methods.dart';
-import 'package:uber_app/views/screens/main_Screen.dart';
+import 'package:artsathi_app/helpers/helper_methods.dart';
+import 'package:artsathi_app/views/screens/main_Screen.dart';
 
 import '../../provider/app_data.dart';
 import '../../vendor/views/screens/main_vendor_screen.dart';
@@ -55,8 +55,8 @@ class _MapScreenState extends State<MapScreen> {
   }
 
   static const CameraPosition _kGooglePlex = CameraPosition(
-    target: LatLng(37.42796133580664, -122.085749655962),
-    zoom: 14.4746,
+    target: LatLng(19.3847602, 72.8265127),
+    zoom: 18,
   );
 
   @override

@@ -1,6 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/widgets.dart';
-import 'package:uber_app/models/favorite_models.dart';
+import 'package:artsathi_app/models/favorite_models.dart';
 
 import '../models/cart_attributes.dart';
 

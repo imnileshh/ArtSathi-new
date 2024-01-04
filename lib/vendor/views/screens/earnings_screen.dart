@@ -1,7 +1,7 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:uber_app/vendor/views/screens/vendor_innner_screen/withdrawal_screen.dart';
+import 'package:artsathi_app/vendor/views/screens/vendor_innner_screen/withdrawal_screen.dart';
 
 class EarningsScreen extends StatelessWidget {
   const EarningsScreen({super.key});

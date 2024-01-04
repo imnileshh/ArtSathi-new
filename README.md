@@ -1,4 +1,4 @@
-# uber_app
+# artsathi_app
 
 A new Flutter project.
 

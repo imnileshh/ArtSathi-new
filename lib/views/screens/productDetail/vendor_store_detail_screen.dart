@@ -1,7 +1,7 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:uber_app/views/screens/productDetail/widget/productDetailModel.dart';
+import 'package:artsathi_app/views/screens/productDetail/widget/productDetailModel.dart';
 
 class VendorStoreDetail extends StatelessWidget {
   final dynamic vendorData;
